@@ -1,0 +1,2 @@
+Sitemap: http://www.delta-electric.in/sitemap.xml
+User-agent: *
