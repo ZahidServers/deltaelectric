@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <script type="text/javascript">
+	    const tell = document.querySelector('.intro-text a');
+	 tell.addEventListener('click', ()=> {
+	 	alert("Hello Zahid");
+	 });   
+	    
         window.addEventListener('DOMContentLoaded', (event) => {
             var n123zahid = parseInt(new Date().getFullYear())-2010;
             var n123zahid2 = parseInt(new Date().getFullYear())-2013;
